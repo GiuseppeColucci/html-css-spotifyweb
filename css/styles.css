@@ -6,6 +6,11 @@
 }
 .box{
     height: 200px;
-    
+    border: 1px solid white;
     background-color: orangered;
+}
+.box-central{
+    display: flex;
+    flex-direction: row;
+
 }
