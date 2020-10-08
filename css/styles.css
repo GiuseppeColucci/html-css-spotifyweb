@@ -1,16 +1,21 @@
-.logo-nav{
-    height: 100vh;
+.conteiner-generl{
     display: flex;
-    flex-direction: column;
-    background-color: black;
 }
-.box{
+.logo-nav{
+   display: flex;
+   flex-direction: column; 
+   flex-basis: 15%;
+   background-color: black;
+}
+.box-mini{
     height: 200px;
-    border: 1px solid white;
+    width: 200px;
     background-color: orangered;
+    border: 1px solid white;
 }
 .box-central{
     display: flex;
     flex-direction: row;
-
+    flex-grow: 100%;
+    background-color: blue;
 }
