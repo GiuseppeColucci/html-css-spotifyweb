@@ -29,6 +29,24 @@
     background-color: darkolivegreen;
     height: 80px;;
 }
+.img-box{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+.img-box img{
+    width: 31px;
+    height: 26px;
+}
+.sidebar-nav img{
+    height: 30px;
+    
+}
+.box-1 ul li img{
+    height: 15px;
+    
+}
 .content{
     background-color: cyan;
     flex-grow: 1;
