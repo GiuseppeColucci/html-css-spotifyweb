@@ -126,19 +126,28 @@
     background-color: lightgrey;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+.content-menu h4{
+    position: absolute;
+    left: 1%;
+    top: 78%;
+    color: white;
 }
 .content-menu ul li{
     list-style: none;
     display:inline-block;
     margin: 0 5px;
-   
-
 }
 .content-menu ul li a{
     text-decoration: none;
     color: white;
 }
+
 /* FINE CONTENT MENU */
+
+/* content menu scollable */
+
 .content .scrollable{
     background-color: crimson;
     position: absolute;
@@ -150,13 +159,18 @@
     padding: 90px 15px 30px;
 }
 .content-category{
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;    
 }
+/* fine content menu scollable */
+
+/* inizio area album list */
 .album-list{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+}
+.content-category .album-list .album-title img{
+    max-width: 100%;
 }
 .album-list .album-title{
     height: 300px;
