@@ -117,10 +117,28 @@
     background-color:rgba(255, 129, 4, 0.45);
     z-index: 1;
 }
+/* FINE top menu */
+
+/* INIZIO CONTENT MENU */
+
 .content-menu{
     height: 80px;
-    background-color: seashell;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
 }
+.content-menu ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 5px;
+   
+
+}
+.content-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* FINE CONTENT MENU */
 .content .scrollable{
     background-color: crimson;
     position: absolute;
