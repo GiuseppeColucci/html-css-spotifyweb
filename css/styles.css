@@ -25,15 +25,36 @@
     background-color: darkgoldenrod;
     flex-grow: 1;
 }
+.plus{
+    height: 31px;
+    width: 31px;
+    background-color: gray;
+    text-align: center;
+    margin-top: 5px;
+}
+
 .sidebar-bottom{
     background-color: darkolivegreen;
-    height: 80px;;
+    height: 80px;
+    margin-left: 10px;   
+}
+.sidebar-bottom p{
+    margin: 5px;
+}
+.sidebar-bottom p:last-child{
+    position: relative;
+    bottom: 28px;
+    left: 39px;
+    margin: 5px;
+    
 }
 .img-box{
     border-radius: 50%;
     height: 30px;
     width: 30px;
     background-color: red;
+    margin: 5px;
+
 }
 .img-box img{
     width: 31px;
@@ -41,11 +62,25 @@
 }
 .sidebar-nav img{
     height: 30px;
+    margin-left: 10px;
     
 }
 .box-1 ul li img{
     height: 15px;
-    
+    margin-left: 10px;
+}
+.box-2{
+    margin-left: 10px;
+    margin: 10px;
+}
+.box-2 ul li {
+    list-style: none;
+}
+.text{
+    position: relative;
+    bottom: 28px;
+    left: 39px;
+   
 }
 .content{
     background-color: cyan;
