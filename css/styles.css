@@ -15,6 +15,7 @@
     display: flex;
     
 }
+/* colonna play list */
 .sidebar{
     background-color: coral;
     flex-basis: 230px;
@@ -54,12 +55,13 @@
     width: 30px;
     background-color: red;
     margin: 5px;
-
 }
+
 .img-box img{
     width: 31px;
     height: 26px;
 }
+
 .sidebar-nav img{
     height: 30px;
     margin-left: 10px;
@@ -82,10 +84,29 @@
     left: 39px;
    
 }
+/* FINE colonna play list */
+
+/* inizio top menu */
 .content{
     background-color: cyan;
     flex-grow: 1;
     position: relative;
+}
+.botton{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius:16px;
+    text-align: center;
+    margin: 10px;
+}
+.botton a{
+    text-decoration: none;
+    color: white;
+}
+.top-bar{
+    display: flex;
+    justify-content: flex-end;
 }
 .content .top-bar{
     position: absolute;
