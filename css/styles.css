@@ -192,7 +192,18 @@
 .content-category h4{
     color: white;
 }
-.hover:hover{
+.play-hover{
+    position: absolute;
+    display: flex;
+}
+.play-hover i{
+    font-size: 50Px;
+    color: orangered;
+}
+.hover{
+    display: none;
+}
+/* .hover:hover{
     width: 100%;
     height: 100%;
 }
@@ -201,7 +212,7 @@
     height: 30px;
     width: 30px;
     transition: 4s;
-}
+} */
 .album-list .album-title{
     height: 300px;
     background-color: pink;
