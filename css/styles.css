@@ -246,8 +246,9 @@
 }
 .play-controller{
     flex-basis: 50%;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    
 } 
 .play-controller ul li{
     list-style: none;
@@ -256,21 +257,43 @@
     margin: 10px 10px;
     color: white;
     text-align: center;
+    position: relative;
+    left: 37%;
 }
 
 .play-start{
     width: 300px;
-    height: 2px;
-    color: red;
+    height: 3px;
+    background-color: red;
+    position: relative;
+    left: 35%;
+}
+.paly-music{
+    width: 100px;
+    height: 3px;
+    background-color: palegreen;
 }
 .play-audio{
     flex-basis: 230px;
-    text-align: center;
+    /* text-align: center; */
 }
 .play-audio i{
     margin-top: 30px;
     margin-left: 5px;
     color: white;
+}
+.play-start-2{
+    width: 100px;
+    height: 3px;
+    background-color: red;
+    position: relative;
+    left: 40%;
+    bottom: 20%;
+}
+.paly-music-2{
+    width: 30px;
+    height: 3px;
+    background-color: palegreen;
 }
 
 .circle{
