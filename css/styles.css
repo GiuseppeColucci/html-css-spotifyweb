@@ -88,6 +88,12 @@
     text-decoration: none;
     color:white;   
 }
+.play-start-a{
+    width: 200px;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+}
 .plus i{
     font-size: 27px;
 }
@@ -112,6 +118,9 @@
     border-radius:16px;
     text-align: center;
     margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .botton a{
     text-decoration: none;
@@ -195,24 +204,26 @@
 .play-hover{
     position: absolute;
     display: flex;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0,0,0, 0.3);
+    display: none;
+}
+.album-title:hover .play-hover{
+    display: flex;
 }
 .play-hover i{
     font-size: 50Px;
     color: orangered;
 }
 .hover{
-    display: none;
+   position: relative;
 }
-/* .hover:hover{
-    width: 100%;
-    height: 100%;
-}
-.hover i{
-    color: orangered;
-    height: 30px;
-    width: 30px;
-    transition: 4s;
-} */
+
 .album-list .album-title{
     height: 300px;
     background-color: pink;
@@ -225,23 +236,25 @@
     justify-content: space-between ;
     display: flex;
 }
+.prova{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .brano{
     height: 40px;
     width: 40px;
     background-color: orangered;
-    margin-top: 10%;
+    margin-top: 10px;
     margin-left: 10%;
+    
 }
 .play-artist p{
-    position: relative;
-    left: 29%;
-    bottom: 35%;
+  
     color: white;
 }
 .play-artist i{
-    position: relative;
-    left: 55%;
-    bottom: 56%;
+
     color: white;
     margin-left: 5px;
 }
@@ -257,8 +270,7 @@
 }
 .play-controller{
     flex-basis: 50%;
-    /* display: flex;
-    justify-content: center; */
+  
     
 } 
 .play-controller ul li{
