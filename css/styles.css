@@ -86,8 +86,10 @@
 }
 .box-2 ul li a{
     text-decoration: none;
-    color:white;
-    
+    color:white;   
+}
+.plus i{
+    font-size: 27px;
 }
 .text{
     position: relative;
@@ -199,6 +201,29 @@
     justify-content: space-between ;
     display: flex;
 }
+.brano{
+    height: 40px;
+    width: 40px;
+    background-color: orangered;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.play-artist p{
+    position: relative;
+    left: 29%;
+    bottom: 35%;
+    color: white;
+}
+.play-artist i{
+    position: relative;
+    left: 55%;
+    bottom: 56%;
+    color: white;
+    margin-left: 5px;
+}
+.brano img{
+    max-width: 100%;
+}
 .play-artist, .play-controller, .play-audio{
     height: 80px;
     background-color: slategrey;
@@ -208,8 +233,16 @@
 }
 .play-controller{
     flex-basis: 50%;
-
+    display: flex;
+    justify-content: center;
 } 
+.play-controller ul li{
+    list-style: none;
+    display:inline-block;
+    font-size: 25px;
+    margin: 10px 10px;
+    color: white;
+}
 .play-audio{
     flex-basis: 230px;
 
@@ -217,4 +250,5 @@
 
 .circle{
     border-radius: 50%;
+    
 }
