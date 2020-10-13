@@ -1,0 +1,1 @@
+document.getElementById('testo-s').innerHTML= "classe-19";
